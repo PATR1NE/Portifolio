@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Serif:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+  /* 10px = 1rem */
+}
+
+button {
+  background: transparent;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #F4F0EA;
+  color: #29231E;
+   font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+hr {
+  width: 80vw;
+}
+
+.hrfooter {
+  width: 100vw;
+}
+
+.section{
+  width: 80vw;
+  padding: 50px 100px;
+  height: fit-content;
+  background: #FFFFFF1A;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  /* border: 1px solid yellow; */
+}
+
+.presentation {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  width: 100vw;
+  border-bottom: 1px solid #DDD6CF;
+}
+
+.navigation {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botoesheader {
+  display: flex;
+  gap: 10px;
+}
+
+.logotipo {
+  color: #29231E;
+  font-weight: lighter;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.itemheader {
+  text-decoration: none;
+  color: #4D4641;
+  /* border: 2px solid black; */
+  /* border-radius: 2px; */
+}
+
+.rounded {
+  border: 0.5px solid #DDD6CF;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.destaque {
+  color: #9C5132;
+  font-style: italic;
+}
+
+.brown {
+  border: 0.5px solid #DDD6CF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #362C24;
+  color: #FDFAF4;
+}
+
+.photo {
+  width: 300px;
+  max-width: 100%;
+}
+
+.divider {
+  margin: 10px 0;
+  border: 0.1px solid;
+}
+
+.section2 {
+  padding: 50px 10vw;
+  width: 80vw;
+  border-top: 1px solid rgba(0, 0, 0, .25);
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  height: fit-content;
+  background: #FFFFFF1A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+
+.stacks {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.linha-div {
+  width: 100%;
+  border-bottom: 2px solid #E3DDD6;
+  margin: 20px 0;
+}
+
+.section3 {
+  padding: 50px 100px;
+  width: 80vw;
+  height: fit-content;
+  background: #FFFFFF1A;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.sobremim {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  color: #2D2823;
+}
+
+.section4 {
+  padding: 50px 100px;
+  width: 80vw;
+  /* height: 30vh; */
+  flex-wrap: wrap;
+  height: fit-content;
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  background: #FFFFFF1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* border: 1px solid blue; */
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, .25);
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.imgprojeto {
+  background: url('./assets/Valentines\ Day\ illustration\ of\ a\ tic-tac-toe\ game\ with\ hearts_\ red\ isolated\ outline\ clipart_.jpg') cover no-repeat fixed center;
+  width: 100%;
+  height: 300px;
+  /* height: auto; */
+  /* border: 1px solid red; */
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section5 {
+  padding: 50px 100px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 1px solid purple; */
+}
+
+.footer {
+  /* border: 1px solid brown; */
+  padding: 20px 100px;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #29231E;
+  margin: auto;
+}
+
+.itemcontato {
+  text-decoration: none;
+  color: #9C5132;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 15px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-interno {
+  width: 100%;
+}
+
+.hr-divisao {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/* keyframes */
+
+/* CSS TRANSITIONS */
+a:hover {
+ background-color: #362C24;
+ color: #CEC1B8;
+}
+
+/* @keyframes animationKeyframes {
+25% {
+  background-color: purple;
+}
+
+50% {
+  font-size: 80px;
+}
+
+75% {
+  background-color: transparent;
+}
+
+95% {
+  font-size: 16px;
+}
+} */
+
+/* a {
+  animation-name: animationKeyframes;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+} */
+
+
+/* a {
+  color: brown;
+}
+
+a:visited {
+  color: red;
+} */
+/* 
+.item {
+	flex: 1;
+	margin: 5px;
+	background: rgb(226, 215, 213);
+	text-align: center;
+	font-size: 2rem;
+  border-radius: 2rem black;
+  width: 10rem;
+  border-radius: 20px;
+} */
+
+@container headerContainer (min-width: 768px) {
+  /* nav {
+    width: 1000px;
+    background: blue !important;
+  } */
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .section {
+    padding: 50px 10px;
+  }
+
+  .section2 {
+    padding: 50px 10px;
+  }
+
+  .section3 {
+    padding: 50px 10px;
+  }
+
+  .section4 {
+    padding: 50px 10px;
+  }
+
+  .section5 {
+    padding: 50px 10px;
+  }
+
+  .footer {
+    padding: 20px 10px;
+  }
+}
